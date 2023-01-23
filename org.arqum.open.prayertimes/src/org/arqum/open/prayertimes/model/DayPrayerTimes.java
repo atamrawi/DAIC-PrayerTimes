@@ -29,6 +29,10 @@ public class DayPrayerTimes {
 		this.sunriseTime = sunriseTime;
 	}
 	
+	public LocalTime getSunriseTime() {
+		return this.sunriseTime;
+	}
+	
 	public DayOfWeek getDay() {
 		return this.date.getDayOfWeek();
 	}
